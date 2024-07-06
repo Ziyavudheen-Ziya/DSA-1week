@@ -9,3 +9,6 @@ function submission(n) {
 }
 
 console.log(submission(4));
+
+
+//Big - o = O(n)
