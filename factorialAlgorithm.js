@@ -1,16 +1,11 @@
+function factorial(n) {
+  let ans = 1;
 
-function factorial(n){
+  for (i = 1; i <= n; i++) {
+    ans = ans * i;
+  }
 
-    let ans = 1;
-
-    for(i=1;i<=n;i++){
-
-        ans = ans*i
-    }
-
-    return ans
-   
-      
+  return ans;
 }
 console.log(factorial(0));
 console.log(factorial(1));

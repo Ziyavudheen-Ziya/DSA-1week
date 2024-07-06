@@ -1,18 +1,11 @@
+function submission(n) {
+  let sum = 0;
 
+  for (let i = 1; i <= n; i++) {
+    sum += i;
+  }
 
-function submission(n){
-
-    let sum = 0;
-
-    for(let i=1; i<=n;i++){
-
-        sum += i;
-    }
-
-    return sum
+  return sum;
 }
 
 console.log(submission(4));
-
-
-
