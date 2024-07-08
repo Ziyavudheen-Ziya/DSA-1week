@@ -18,3 +18,6 @@ function search(arr, target, left, right) {
 }
 
 console.log(recuresiveBinarySearchAlgoritm([1, 2, 3, 4, 5, 6, 7, 8], 5));
+
+// Big - O = O(logn)
+// Logorathamic beacuse we are not using any or not so that's why it's logratamic the time complexity.
