@@ -14,4 +14,3 @@ console.log(isPrime(2));
 console.log(isPrime(5));
 
 //Bg-O = O(n)
-

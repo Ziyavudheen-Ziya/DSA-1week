@@ -1,6 +1,6 @@
 let str = "hghyyydddddddd".split("");
 
-let rs = str
+let rs = str;
 // .sort((a, b) => a.localeCompare(b));
 let max = 0;
 let maxChar = "";
