@@ -13,3 +13,4 @@ function recursionLargest(arr, l) {
 console.log(recursionLargest([3, 4, 5, 2, 1], 0));
 
 
+// Big-O = O(n) -linear.
