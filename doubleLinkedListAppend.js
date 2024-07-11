@@ -27,9 +27,9 @@ class LinkedList {
     if (this.isEmpty()) {
       this.head = node;
     } else {
-      node.prev = this.tail;
-
-      this.tail.next = node;
+         
+      node.prev = this.tail
+      this.tail.next = node
     }
     this.size++;
     this.tail = node;
